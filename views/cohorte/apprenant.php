@@ -91,21 +91,23 @@
             </div>
             <form action="" method="POST" enctype="multipart/form-data">
                 <div class="modal-body">
-                    <div class="form-group">
+                    <div class="row">
+                    <div class="form-group col-md-6">
                         <label for="apprenant_nom">Nom</label>
                         <input type="text" class="form-control" id="apprenant_nom" name="nom" required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="apprenant_prenom">Prénom</label>
                         <input type="text" class="form-control" id="apprenant_prenom" name="prenom" required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="apprenant_tel">Téléphone</label>
                         <input type="tel" class="form-control" id="apprenant_tel" name="tel" required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-md-6">
                         <label for="apprenant_email">Email</label>
                         <input type="email" class="form-control" id="apprenant_email" name="email" required>
+                    </div>
                     </div>
                     <div class="form-group">
                         <label for="apprenant_adresse">Adresse</label>
