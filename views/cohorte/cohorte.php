@@ -2,11 +2,17 @@
     <?php require_once('views/partials/_getmessage.php'); ?>
     <!-- Fil d'Ariane -->
 
-    <nav aria-label="breadcrumb" class="mb-4">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="?page=cohorte">Cohortes</a></li>
+    <nav aria-label="breadcrumb" class="mb-4 shadow-sm">
+        <ol class="breadcrumb bg-light border rounded p-3">
+            <li class="breadcrumb-item">
+                <a href="?page=cohorte" class="text-primary">
+                    <i class="fas fa-users-class mr-1"></i>Cohortes
+                </a>
+            </li>
             <?php if (isset($_GET['cohorte_id'])): ?>
-                <li class="breadcrumb-item active" aria-current="page"><?= htmlspecialchars($cohorte_active->nom ?? '') ?></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    <i class="fas fa-graduation-cap mr-1"></i><?= htmlspecialchars($cohorte_active->nom ?? '') ?>
+                </li>
             <?php endif; ?>
         </ol>
     </nav>
