@@ -20,7 +20,7 @@
                         <a class="nav-link" href="#"><i class="fas fa-home mr-1"></i>Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-trophy mr-1"></i>Challenges</a>
+                        <a class="nav-link" href="?page=challenge"><i class="fas fa-trophy mr-1"></i>Challenges</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="?page=cohorte"><i class="fas fa-users mr-1"></i>Cohortes</a>
